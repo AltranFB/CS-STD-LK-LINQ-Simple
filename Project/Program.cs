@@ -22,7 +22,11 @@ namespace Project
              * Litch
              * Lobster
              */
-
+            var sol = from str in strings
+                      where (str[0] == 'L')
+                      orderby str
+                      select str;
+            return sol;
         }
 
         static void Main(string[] args)
