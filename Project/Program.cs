@@ -22,7 +22,6 @@ namespace Project
              * Litch
              * Lobster  
              */
-            return null;
         }
 
         static void Main(string[] args)
