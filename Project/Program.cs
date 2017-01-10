@@ -20,9 +20,9 @@ namespace Project
              * 
              * Example of output:
              * Litch
-             * Lobster
+             * Lobster  
              */
-
+            return null;
         }
 
         static void Main(string[] args)

@@ -8,7 +8,7 @@ namespace Project
     public class Tests
     {
         [TestMethod]
-        public void TestRightContent()
+        public void LanguagKnowledge1()
         {
             var strings = new List<string>();
             var filteredStrings = new Solution().Filter(strings);
@@ -24,7 +24,7 @@ namespace Project
         }
 
         [TestMethod]
-        public void TestRightOrder()
+        public void LanguagKnowledge2()
         {
             var strings = new List<string>();
             var filteredStrings = new Solution().Filter(strings);
