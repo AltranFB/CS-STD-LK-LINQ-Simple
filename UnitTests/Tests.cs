@@ -7,8 +7,8 @@ namespace Project
     [TestClass]
     public class Tests
     {
-        [TestMethod]
-        public void LanguagKnowledge1()
+        [TestCategory("Language Knowledge"), TestMethod]
+        public void Test1()
         {
             var strings = new List<string>();
             var filteredStrings = new Solution().Filter(strings);
@@ -23,8 +23,8 @@ namespace Project
             Check.That(filteredStrings).Not.Contains("Doe");
         }
 
-        [TestMethod]
-        public void LanguagKnowledge2()
+        [TestCategory("Language Knowledge"), TestMethod]
+        public void Test2()
         {
             var strings = new List<string>();
             var filteredStrings = new Solution().Filter(strings);
