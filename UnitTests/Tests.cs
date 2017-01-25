@@ -2,7 +2,7 @@
 using NFluent;
 using System.Collections.Generic;
 
-namespace Project
+namespace LinqSimple
 {
     [TestClass]
     public class Tests

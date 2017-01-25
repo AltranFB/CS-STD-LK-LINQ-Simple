@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project
+namespace LinqSimple
 {
     public class Solution
     {
@@ -22,6 +22,7 @@ namespace Project
              * Litch
              * Lobster  
              */
+             return null;
         }
 
         static void Main(string[] args)
